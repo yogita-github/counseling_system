@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Report</title>
+    <link rel="stylesheet" href="../static/css/r_style.css" />
+  </head>
+  <body>
+    <h2 class="heading">REPORT</h2>
+    <table class="patient-det">
+      <b><p class="table-head">PATIENT DETAILS</p></b>
+      <tr>
+        <td>Name:</td>
+        <td>Town:</td>
+        <td>Pin-Code:</td>
+        <td>Country:
+        </td>
+      </tr>
+      <tr>
+        <td>D.O.B:</td>
+        <td>Gender:</td>
+      </tr>
+    </table>
+
+    <b><p class="table-head">PATIENT CONDITION</p></b>
+    <div class="pat-con">
+    <table class="patient-cond">
+        <tr>
+            <th>Body-Vitals</th>
+        </tr>
+        {%for v, l in zipped_data%}
+        <tr>
+          <td>{{l}} = {{v}}</td>
+        </tr>
+        {%endfor%}
+    </table>
+    <table class="patient-cond">
+      
+      <tr>
+        <th>Symptoms</th>
+        <th>Result</th>
+      </tr>
+      <td>
+        <td>{{res}}</td>
+      </td>
+    </table>
+  </div>
+
+    <table class="recommendations">
+        <b><p class="table-head">RECOMMENDATIONS</p></b>
+        <tr>
+            <th>PHYSICAL</th>
+            <th>MENTAL</th>
+            <th>MEDS</th>
+            <th>NUTRIENTS</th>
+        </tr>
+    </table>
+  </body>
+</html>

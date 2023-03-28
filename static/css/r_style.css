@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.table-head{
+    margin: 1rem;
+    padding: 0.4rem;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+    .heading{
+    margin: 1rem;
+    text-align: center;
+}
+
+table{
+    margin: 0 0 2rem 0;
+}
+
+.recommendations {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recommendations th, tr{
+    padding: 0.5rem 2rem;
+}
+
+.patient-cond {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 1rem ;
+}
+
+.patient-cond th, tr{
+    padding: 0.5rem 2rem;
+}
+
+.patient-det {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 1rem;
+}
+
+.patient-det td{
+    padding: 0 2rem 0 0.5rem;
+}
+
+
+tr, td, th{
+    border: 2px solid black;
+}
+
+td{
+    text-align: center;
+}
+
+.pat-con{
+    display: flex;
+    
+}
