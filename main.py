@@ -115,6 +115,14 @@ def posts():
 def post1():
     return render_template('post1.html')
 
+@app.route('/post2', methods=['POST', 'GET'])
+def post2():
+    return render_template('post2.html')
+
+@app.route('/post3', methods=['POST', 'GET'])
+def post3():
+    return render_template('post3.html')
+
 
 
 @app.route('/about', methods=['POST', 'GET'])
