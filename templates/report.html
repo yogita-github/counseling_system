@@ -48,14 +48,46 @@
     </table>
   </div>
 
+  <div class="recs">
     <table class="recommendations">
         <b><p class="table-head">RECOMMENDATIONS</p></b>
+        <th>PHYSICAL</th>
         <tr>
-            <th>PHYSICAL</th>
-            <th>MENTAL</th>
-            <th>MEDS</th>
-            <th>NUTRIENTS</th>
+          {%for p in phy%}
+          <td>{{p}}</td>
         </tr>
+          {%endfor%}
+
+          <th>MEDICINES</th>
+        <tr>
+          {%for p in meds%}
+          <td>{{p}}</td>
+        </tr>
+          {%endfor%}
+
+          <th>MEDITATION</th>
+        <tr>
+          {%for p in medi%}
+          <td>{{p}}</td>
+        </tr>
+          {%endfor%}
+
+          <th>NUTRIENTS</th>
+        <tr>
+          {%for p in nutri%}
+          <td>{{p}}</td>
+        </tr>
+          {%endfor%}
+
     </table>
+  </div>
+
+    <h2 style="text-align: center;">SUGGESTIONS</h2>
+    
+      {% for d in data %}
+      <li class="info">{{ d }}</li>
+      {% endfor %}
+      
+    
   </body>
 </html>

@@ -10,6 +10,8 @@ import pickle
 from sklearn.preprocessing import StandardScaler
 from imblearn.over_sampling import SMOTE
 import data
+import file
+import datalist
 
 import pandas as pd
 
@@ -59,7 +61,6 @@ class LoginForm(FlaskForm):
     
     submit = SubmitField("Login")
 
-mdl = pickle.load(open('model_svc.pkl', 'rb'))
 
 @app.route('/')
 def index():
@@ -78,30 +79,50 @@ def forms():
     glc = request.form['glc']
     vitals = [age, sbp, hbp, h_rate, glc, spo2, temp_c]
     res = predict(gender,age, sbp, hbp, h_rate, glc, spo2, temp)
-    # if (res[0] == 1):
-    #     result = "healthy"
-    # elif(res[0] == 2):
-    #     result = "High BP"
-    # elif(res[0] == 3):
-    #     result = "LOW BP"
-    # elif(res[0] == 4):
-    #     result = "High Sugar"
-    # elif(res[0] == 5):
-    #     result = "Low Sugar"
-    # elif(res[0] == 6):
-    #     result = "Low Oxygen"
-    # elif(res[0] == 7):
-    #     result = "High Temperature"
-    # elif(res[0] == 8):
-    #     result = "Heartbeat is High"
-    # elif(res[0] == 9):
-    #     result = "Risk"
-    result = data.con[res[0]-1]
-    return render_template('report.html', res = result, zipped_data = zip(vitals, data.vals))
+    if (res[0] == 1):
+        result = "healthy"
+        data, phy, medi, nutri, meds = rec("healthy")
+        
+    elif(res[0] == 2):
+        result = "High BP"
+        data, phy, medi, nutri, meds = rec("highbp")
+    elif(res[0] == 3):
+        result = "LOW BP"
+        data, phy, medi, nutri, meds = rec("lowbp")
+    elif(res[0] == 4):
+        result = "High Sugar"
+        data, phy, medi, nutri, meds = rec("highsugar")
+    elif(res[0] == 5):
+        result = "Low Sugar"
+        data, phy, medi, nutri, meds = rec("lowsugar")
+    elif(res[0] == 6):
+        result = "Low Oxygen"
+        data, phy, medi, nutri, meds = rec("lowoxy")
+    elif(res[0] == 7):
+        result = "High Temperature"
+        data, phy, medi, nutri, meds = rec("hightemp")
+    elif(res[0] == 8):
+        result = "Heartbeat is High"
+        data, phy, medi, nutri, meds = rec("highheartbeat")
+    elif(res[0] == 9):
+        result = "Risk"
+        data, phy, medi, nutri, meds = rec("risk")
+    # result = data.con[res[0]-1]
+    # print(phy)
+    return render_template('report.html', res = result, zipped_data = zip(vitals, datalist.vals), data = data, phy = phy, meds = meds, medi = medi, nutri=nutri)
 
 @app.route('/forms', methods=['POST', 'GET'])
 def form():
     return render_template('forms.html')
+
+def rec(stri):
+    parsed = file.parsed[stri]
+    physical = file.physical[stri]
+    meditation = file.meditation[stri]
+    nutris = file.nutris[stri]
+    meds = file.meds[stri]
+    print(nutris)
+    return parsed, physical, meditation, nutris, meds
 
 @app.route('/tips', methods=['POST', 'GET'])
 def tips():
@@ -141,9 +162,6 @@ def recommend():
 def faqs():
     return render_template('faq.html')
 
-@app.route('/login', methods=['POST', 'GET'])
-def logi():
-    return render_template('login.html')
 
 @app.route('/log',methods=['POST','GET'])
 def log():

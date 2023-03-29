@@ -63,3 +63,14 @@ td{
     display: flex;
     
 }
+
+.recs td{
+    display:flex ;
+    justify-content: space-evenly;
+}
+
+.recommendations td{
+    width: 35rem;
+    
+}
+
