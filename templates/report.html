@@ -12,15 +12,15 @@
     <table class="patient-det">
       <b><p class="table-head">PATIENT DETAILS</p></b>
       <tr>
-        <td>Name:</td>
-        <td>Town:</td>
-        <td>Pin-Code:</td>
-        <td>Country:
+        <td>Name: {{name}}</td>
+        <td>Town: {{town}}</td>
+        <td>Pin-Code: {{pin}}</td>
+        <td>Country: {{country}}
         </td>
       </tr>
       <tr>
-        <td>D.O.B:</td>
-        <td>Gender:</td>
+        <td>D.O.B: {{dob}}</td>
+        <td>Gender: {{gender}}</td>
       </tr>
     </table>
 
@@ -48,30 +48,36 @@
     </table>
   </div>
 
+  <b><p class="table-head">RECOMMENDATIONS</p></b>
   <div class="recs">
-    <table class="recommendations">
-        <b><p class="table-head">RECOMMENDATIONS</p></b>
-        <th>PHYSICAL</th>
+    <table class="recommendations-phy">
+        <th >PHYSICAL</th>
         <tr>
           {%for p in phy%}
           <td>{{p}}</td>
         </tr>
           {%endfor%}
+          </table>
 
+          <table class="recommendations-meds">
           <th>MEDICINES</th>
         <tr>
           {%for p in meds%}
           <td>{{p}}</td>
         </tr>
           {%endfor%}
+        </table>
 
+        <table class="recommendations-medi">
           <th>MEDITATION</th>
         <tr>
           {%for p in medi%}
           <td>{{p}}</td>
         </tr>
           {%endfor%}
+        </table>
 
+        <table class="recommendations-nutri">
           <th>NUTRIENTS</th>
         <tr>
           {%for p in nutri%}

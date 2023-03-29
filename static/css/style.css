@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700;800;900&display=swap');
 .nav{
 	background-color: #283747;
 }
@@ -10,7 +11,7 @@
 	color: white;
 	justify-content: center;
 	font-weight: 700;
-	font-family: Georgia, serif;
+	font-family: 'Poppins', sans-serif;
 	padding: 20px;
 }
 
@@ -110,12 +111,12 @@ body{
 
 .reg
 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 
 .logh{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   
 
@@ -191,7 +192,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;*/
 	background-color: aliceblue;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	margin: 0;
 
   }
@@ -213,7 +214,7 @@ body {
 	color: #0d0e0f;
 	text-shadow: -1px -1px 3px #878383, 
     2px 2px 4px #878181;
-	font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Poppins', sans-serif;
 	line-height: 2.1;
 	
 
@@ -223,7 +224,7 @@ body {
   }
 .about-section p{
 	padding:50px;
-	font-family: 'Baloo Bhai 2', cursive;
+	font-family: 'Poppins', sans-serif;
 	text-align: justify;
 	text-shadow: -1px -1px 3px #7f7474, 
     2px 2px 4px #a4a1a1;
@@ -252,7 +253,7 @@ body {
   
   .fa,
   .fas {
-    font-family: 'FontAwesome';
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     font-style: normal;
@@ -328,7 +329,7 @@ body {
 }
 .measure1{
 	text-align: center;
-	 font-family: math;	
+  font-family: 'Poppins', sans-serif;	
 	 padding-bottom: 30px;
 }
 .measure2{
@@ -467,7 +468,8 @@ form .form-field {
     border-radius: 20px;
   }
   .eat{
-    font-family: 'Times New Roman', Times, serif;
+    
+    font-family: 'Poppins', sans-serif;
     padding-left: 100px;
     padding-right: 100px;
     font-size: 20px;
@@ -477,14 +479,14 @@ form .form-field {
 
   }
   .eater{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
   }
   .inc{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     padding-left: 90px;
     padding-right: 50px;
@@ -505,7 +507,7 @@ form .form-field {
   *{
 	margin:0px;
 	padding:0px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	box-sizing: border-box;
   }
   a{
@@ -517,7 +519,7 @@ form .form-field {
   #blog{
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -622,6 +624,7 @@ form .form-field {
   .footer {
 	width: 100%;
 	background-color:#283747 ;
+  height: 30%;
   }
   .footer .col {
 	width: 190px;
@@ -653,12 +656,7 @@ form .form-field {
 	padding-right: 5px !important;
   }
   
-  .footer .col ul li:hover {
-	cursor: pointer;
-	color: lightgray;
-	font-weight: bold;
-  }
-
+  
   .res{
 	text-align: center;
   }
@@ -745,7 +743,7 @@ form .form-field {
    }
 
 .tipss body {
-	font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
 	margin: 0;
 	padding: 1rem;
 	background-color: aliceblue;
@@ -830,14 +828,14 @@ img {
 	 padding-top: 170px;
 	 padding-bottom: 20px;
 	 font-weight: bold;
-	 font-family: 'Times New Roman', serif;
+   font-family: 'Poppins', sans-serif;
    }
 .text p{
 	
 	text-align: justify;
 	padding-left: 100px;
 	font-weight: 900;
-	font-family: comic sans-serif;
+  font-family: 'Poppins', sans-serif;
 	
    }
    .text{
@@ -924,7 +922,7 @@ width: 500px;
 .lbl-toggle {
 display: block;
 font-weight: bold;
-font-family: monospace; 
+font-family: 'Poppins', sans-serif;
 font-size: 1.2rem;
 text-transform: uppercase;
 text-align: center; 
@@ -985,7 +983,7 @@ input[type='checkbox'] {
    .lbl-toggle1{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1045,7 +1043,7 @@ input[type='checkbox'] {
    .lbl-toggle2{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1105,7 +1103,7 @@ input[type='checkbox'] {
    .lbl-toggle3{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1165,7 +1163,7 @@ input[type='checkbox'] {
    .lbl-toggle4{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif; 
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1225,7 +1223,7 @@ input[type='checkbox'] {
    .lbl-toggle5{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1285,7 +1283,7 @@ input[type='checkbox'] {
    .lbl-toggle6{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1345,7 +1343,7 @@ input[type='checkbox'] {
    .lbl-toggle7{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1405,7 +1403,7 @@ input[type='checkbox'] {
    .lbl-toggle8{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1465,7 +1463,7 @@ input[type='checkbox'] {
    .lbl-toggle9{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif; 
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1525,7 +1523,7 @@ input[type='checkbox'] {
    .lbl-toggle10{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1585,7 +1583,7 @@ input[type='checkbox'] {
    .lbl-toggle11{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1645,7 +1643,7 @@ input[type='checkbox'] {
    .lbl-toggle12{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1705,7 +1703,7 @@ input[type='checkbox'] {
    .lbl-toggle13{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1765,7 +1763,7 @@ input[type='checkbox'] {
    .lbl-toggle14{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1825,7 +1823,7 @@ input[type='checkbox'] {
    .lbl-toggle15{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif; 
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1885,7 +1883,7 @@ input[type='checkbox'] {
    .lbl-toggle16{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -1945,7 +1943,7 @@ input[type='checkbox'] {
    .lbl-toggle17{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -2005,7 +2003,7 @@ input[type='checkbox'] {
    .lbl-toggle18{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -2065,7 +2063,7 @@ input[type='checkbox'] {
    .lbl-toggle19{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -2125,7 +2123,7 @@ input[type='checkbox'] {
    .lbl-toggle20{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 
@@ -2185,7 +2183,7 @@ input[type='checkbox'] {
    .lbl-toggle21{
    display: block;
    font-weight: bold;
-   font-family: monospace; 
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    text-transform: uppercase;
    text-align: center; 

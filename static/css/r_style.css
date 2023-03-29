@@ -11,6 +11,7 @@
     padding: 0.4rem;
     background-color: aliceblue;
     border: 2px solid black;
+    /* border-collapse: collapse; */
 }
     .heading{
     margin: 1rem;
@@ -51,8 +52,9 @@ table{
 }
 
 
-tr, td, th{
-    border: 2px solid black;
+table, tr, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 td{
@@ -64,13 +66,17 @@ td{
     
 }
 
-.recs td{
+.recs {
     display:flex ;
     justify-content: space-evenly;
 }
 
-.recommendations td{
-    width: 35rem;
-    
+.recs table{
+    width: 28rem;
+    margin: 0.3rem 1rem;
+}
+
+li{
+    margin: 1rem 0.5rem;
 }
 
