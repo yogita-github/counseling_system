@@ -10,19 +10,39 @@
     <link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body class="lg">
-    
-    <h3>Login</h3>
-    <p>Please enter your credentials to login.</p>
-    
-    <form method="POST" action="">
-        {{ form.hidden_tag() }}
-        {{ form.username }}
-        {{ form.password }}
-        {{ form.submit }}
-    </form>
+
+    <!-- <form  method="POST" action=""> -->
+        <!-- {{ form.hidden_tag() }} -->
+        <!-- {{ form.username }} -->
+        <!-- {{ form.password }} -->
+        <!-- {{ form.submit }} -->
+    <!-- </form> -->
+    <!-- <button class="bit"> {{ form.submit }}</button> -->
    
 
 
-    <a href="{{url_for('register')}}">Don't have an account? Sign Up</a>
+    <!-- <a href="{{url_for('register')}}">Don't have an account? Sign Up</a> -->
+
+
+    <div class="login-container">
+        <h1>Login</h1>
+        <p class="hub">Please enter your credentials to login.</p>
+        <form>
+             {{ form.hidden_tag() }}
+          <div class="form-group">
+            <label for="username">Username:</label>
+           {{ form.username }}
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            {{ form.password }}
+            
+          </div>
+          <button type="submit">{{ form.submit }}</button>
+        </form>
+        <div class="signup-link">
+            <a href="{{url_for('register')}}">Don't have an account? Sign Up</a>
+        </div>
+      </div>
 </body>
 </html>

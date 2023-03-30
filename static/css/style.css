@@ -388,7 +388,9 @@ body {
 }
 
 /*Register page*/
-.re{
+
+
+/* .re{
   text-align: center;
   padding-top: 500px;
 }
@@ -423,9 +425,108 @@ form .form-field {
   align-items: center;
   margin-bottom: 1rem;
   position: relative;
+} */
+/*login page*/
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
-/*posts page*/
 
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+  letter-spacing: 1px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  font-size: 16px;
+  color: #555;
+  letter-spacing: 1px;
+}
+
+button[type="submit"] {
+  background-color: #00A6CC;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  float: right;
+}
+
+button[type="submit"]:hover {
+  background-color: #57C7E7;
+}
+
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.signup-link a {
+  color: #121213;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.signup-link a:hover {
+  color: #00A6CC;
+}
+.lg{
+  background: linear-gradient(to bottom right, #FFB6C1, #87CEFA);
+  display: flex;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  padding-top: 100px;
+}
+
+/* New styles for adding more color */
+.login-container {
+  background: linear-gradient(to top left, #FFB6C1, #87CEFA);
+ 
+}
+
+h1 {
+  color: #fff;
+}
+
+input[type="text"], input[type="password"] {
+  border-bottom: 2px solid #fff;
+  background-color: #eee;
+}
+ /*register pagr*/
  
   /*.tipss h1{
 	text-align: center;
@@ -905,11 +1006,13 @@ img {
   }
   /*Recommendation page*/
   .rec_main{
-	background-color:  rgb(194, 242, 245);
+	background-color:  rgb(160, 239, 244);
   }
  
  .diseases h1{
 text-align: center;
+color: #000;
+padding-top: 20px;
  }
 input[type='checkbox'] {
  display: none; 
