@@ -1,6 +1,6 @@
 {
     "highbp": [
-        "There are several classes of medications used to treat high blood pressure (hypertension). These include:",
+        "There are several classes of medications used to treat high blood pressure (hypertension).",
         "Angiotensin converting enzyme (ACE) inhibitors: These medications relax the blood vessels and decrease the production of a hormone called angiotensin, which can cause blood vessels to narrow.",
         "Angiotensin receptor blockers (ARBs): These medications block the effects of angiotensin, which can help to lower blood pressure.",
         "Calcium channel blockers: These medications relax the blood vessels and decrease the amount of calcium entering the heart muscle and blood vessel walls.",
@@ -13,14 +13,14 @@
         "        Low blood pressure, also known as hypotension, is a condition where blood pressure falls below the normal range. Some people with low blood pressure may not experience any symptoms, while others may experience dizziness, fainting, fatigue, nausea, and blurred vision.",
         "The treatment of low blood pressure depends on the underlying cause. In some cases, low blood pressure may be a side effect of certain medications, such as diuretics, beta-blockers, and some antidepressants. In these cases, changing the medication or adjusting the dosage may help to alleviate the symptoms.",
         "If low blood pressure is caused by dehydration, increasing fluid intake can help to raise blood pressure. Eating a diet rich in sodium may also help to raise blood pressure in some people.",
-        "In severe cases of low blood pressure, medications may be necessary to increase blood pressure. These medications include:",
+        "In severe cases of low blood pressure, medications may be necessary to increase blood pressure.",
         "Fludrocortisone: Fludrocortisone is a medication that works by increasing the amount of sodium in the body, which can help to raise blood pressure.",
         "Midodrine: Midodrine is a medication that constricts blood vessels, which can help to raise blood pressure.",
         "Pyridostigmine: Pyridostigmine is a medication that increases the activity of the nervous system, which can help to raise blood pressure.",
         "It's important to note that these medications should only be taken under the guidance of a healthcare provider, as they can have side effects and may interact with other medications."
     ],
     "highsugar": [
-        "High blood sugar is a condition commonly associated with diabetes. There are several medicines available to help manage high blood sugar levels in people with diabetes. Some of the commonly prescribed medications for high blood sugar include:",
+        "High blood sugar is a condition commonly associated with diabetes. There are several medicines available to help manage high blood sugar levels in people with diabetes.",
         "Metformin: This medication is usually the first line of treatment for type 2 diabetes. It works by reducing the amount of glucose produced by the liver and improving the body's sensitivity to insulin.",
         "Sulfonylureas: These medications stimulate the pancreas to produce more insulin, which helps to lower blood sugar levels. Examples include glipizide, glyburide, and glimepiride.",
         "DPP-4 inhibitors: These medications work by increasing the amount of insulin released by the pancreas and reducing the amount of glucose produced by the liver. Examples include sitagliptin, saxagliptin, and linagliptin.",
@@ -45,7 +45,7 @@
         "It is important to note that the treatment of low oxygen levels will depend on the underlying cause, and should always be prescribed by a healthcare professional."
     ],
     "hightemp": [
-        "A high temperature, also known as fever, is a common symptom of many infections and illnesses. Fever is the body's way of fighting infection and is usually not a cause for concern unless it is very high or lasts for a long time. Here are some medications that can help to reduce a high temperature:",
+        "A high temperature, also known as fever, is a common symptom of many infections and illnesses. Fever is the body's way of fighting infection and is usually not a cause for concern unless it is very high or lasts for a long time.",
         "Acetaminophen (Tylenol): This medication is a common over-the-counter pain reliever and fever reducer. It works by blocking the production of prostaglandins, which are chemicals that cause inflammation and pain. Acetaminophen is often the first choice for treating fever in children and adults.",
         "Nonsteroidal anti-inflammatory drugs (NSAIDs): These medications, such as ibuprofen (Advil) and naproxen (Aleve), also work by blocking the production of prostaglandins. They are often used to treat fever in adults, but should not be used in children under the age of 6 months.",
         "Aspirin: Aspirin is also an NSAID, but it is not recommended for children or teenagers with fever because of the risk of developing a rare but serious condition called Reye's syndrome.",
@@ -54,7 +54,7 @@
         "It is important to note that fever is often a symptom of an underlying condition, and the treatment should be focused on treating the underlying cause. If a fever is very high or lasts for a long time, or if it is accompanied by other concerning symptoms, it is important to seek medical attention"
     ],
     "risk": [
-        "A high heartbeat, also known as tachycardia, is a condition in which the heart beats faster than normal. Tachycardia can be caused by a variety of factors, including stress, anxiety, medications, and underlying medical conditions such as thyroid problems or heart disease. The treatment for tachycardia will depend on the underlying cause, but here are some medications that may be used to help control a high heartbeat:",
+        "A high heartbeat, also known as tachycardia, is a condition in which the heart beats faster than normal. Tachycardia can be caused by a variety of factors, including stress, anxiety, medications, and underlying medical conditions such as thyroid problems or heart disease.",
         "Beta-blockers: These medications, such as metoprolol and propranolol, work by blocking the effects of adrenaline, which can increase the heart rate. Beta-blockers are often used to treat tachycardia caused by anxiety, hyperthyroidism, or heart disease.",
         "Calcium channel blockers: These medications, such as verapamil and diltiazem, work by relaxing the blood vessels and reducing the workload on the heart. They are often used to treat tachycardia caused by heart disease or hypertension.",
         "Digoxin: This medication helps to slow down the heart rate by increasing the strength of the heart muscle contractions. It is often used to treat tachycardia caused by heart failure or atrial fibrillation.",

@@ -4,7 +4,9 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color:#FFFAFA;
 }
+
 
 .table-head{
     margin: 1rem;
@@ -12,9 +14,10 @@
     background-color: aliceblue;
     border: 2px solid black;
     text-align: center;
-    
+
     /* border-collapse: collapse; */
 }
+
     .heading{
     margin: 1rem;
     text-align: center;
@@ -22,6 +25,7 @@
 
 table{
     margin: 0 0 2rem 0;
+    
 }
 
 .recommendations {
@@ -32,7 +36,30 @@ table{
 .recommendations th, tr{
     padding: 0.5rem 2rem;
 }
+.recommendations-phy td{
+    text-align: justify;
+    padding-left: 4px;
+    padding-right: 4px;
 
+}
+.recommendations-meds td{
+    text-align: justify;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+.recommendations-medi td{
+    text-align: justify;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+.recommendations-nutri td{
+    text-align: justify;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
 .patient-cond {
     display: flex;
     justify-content: space-evenly;
@@ -41,13 +68,17 @@ table{
 
 .patient-cond th, tr{
     padding: 0.5rem 2rem ;
+   
 }
-
+.patient-cond td{
+    padding: 4px;
+}
 .patient-det {
     display: flex;
     /* justify-content: flex-start; */
     margin: 0 1rem;
     justify-content: center;
+
    
 }
 
@@ -86,3 +117,44 @@ li{
     margin: 1rem 0.5rem;
 }
 
+/* Style the label that will collapse the content */
+.label {
+   
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 47%;
+    padding-bottom: 50px;
+    
+  }
+  
+  /* Change the background color of the label on hover */
+  /* .label:hover {
+    background-color: #777;
+  } */
+  
+  /* Style the content that will be collapsed */
+  .collapsible-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: flex-end;
+    /* background-color: #f1f1f1; */
+  }
+  
+  /* Show the content when the label is clicked */
+  .toggle:checked ~ .collapsible-content {
+    display: block;
+  
+    
+  }
+  

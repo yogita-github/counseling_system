@@ -38,3 +38,9 @@ with open('meds.json') as user_file:
   meds_c = user_file.read()
 meds = json.loads(meds_c)
 
+
+# this changed
+with open('syms.json') as user_file:
+  syms_c = user_file.read()
+syms = json.loads(syms_c)
+

@@ -7,10 +7,11 @@
     <title>Report</title>
     <link rel="stylesheet" href="../static/css/r_style.css" />
   </head>
-  <body>
+  <body >
+    
     <h2 class="heading">REPORT</h2>
-    <table class="patient-det">
-      <b><p class="table-head">PATIENT DETAILS</p></b>
+    <table class="patient-det" >
+      <b><p class="table-head" >PATIENT DETAILS</p></b>
       <tr>
         <td>Name: {{name}}</td>
         <td>Town: {{town}}</td>
@@ -37,14 +38,23 @@
         {%endfor%}
     </table>
     <table class="patient-cond">
-      
       <tr>
-        <th>Symptoms</th>
         <th>Result</th>
       </tr>
-      <td>
+      <tr>
         <td>{{res}}</td>
-      </td>
+      </tr>
+    </table>
+    <table class="patient-cond">
+      <tr>
+        <th>Symptoms</th>
+      </tr>
+      {% for s in syms %}
+      <tr>
+
+        <td>{{s}}</td>
+      </tr>
+      {% endfor %}
     </table>
   </div>
 
@@ -88,12 +98,20 @@
     </table>
   </div>
 
-    <h2 style="text-align: center;">SUGGESTIONS</h2>
+    <!-- <h2 style="text-align: center;">SUGGESTIONS</h2>
     
       {% for d in data %}
       <li class="info">{{ d }}</li>
       {% endfor %}
-      
-    
+       -->
+      <div class="collapsible">
+        <input id="collapsible1" class="toggle" type="checkbox">
+        <label for="collapsible1" class="label">SUGGESTIONS</label>
+        <div class="collapsible-content">
+          <p>{% for d in data %}
+            <li class="info">{{ d }}</li>
+            {% endfor %}</p>
+        </div>
+      </div>
   </body>
 </html>

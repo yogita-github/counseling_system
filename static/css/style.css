@@ -237,7 +237,9 @@ body {
 	color: grey;
   }
   
-
+.our{
+  color: #000;
+}
   .text-secondary {
     color: #3d5d6f;
   }
@@ -331,6 +333,7 @@ body {
 	text-align: center;
   font-family: 'Poppins', sans-serif;	
 	 padding-bottom: 30px;
+   color: #000;
 }
 .measure2{
 	padding-right: 200px;
@@ -953,6 +956,7 @@ img {
 	text-align: center;
 	padding-bottom: 50px;
 	padding-top: 50px;
+  color: #000;
 	
   }
   
@@ -1195,6 +1199,7 @@ input[type='checkbox'] {
    padding: .5rem 1rem ;
    
    }
+
    input[type='checkbox'] {
 	display: none; 
    } 

@@ -1,0 +1,62 @@
+{
+    "healthy": [
+        "Restful and consistent sleeping patterns. ...",
+        "Good energy levels.",
+        "Healthy bowel movement.",
+        "Healthy Urinary System.",
+        "Healthy, dewy skin.",
+        "Healthy hair.",
+        "Good oral health and neutral-smelling breath.",
+        "Regular menstrual cycles."
+    ],
+    "lowbp": [
+        "Blurry vision.",
+        "Confusion.",
+        "Dizziness.",
+        "Fainting (syncope)",
+        "Lightheadedness.",
+        "Nausea or vomiting.",
+        "Sleepiness.",
+        "Weakness."
+    ],
+    "highsugar": [
+        "increased thirst and a dry mouth.",
+        "needing to pee frequently.",
+        "tiredness.",
+        "blurred vision.",
+        "unintentional weight loss.",
+        "recurrent infections, such as thrush, bladder infections (cystitis) and skin infections."
+    ],
+    "highbp": [
+        "Headaches.",
+        "Shortness of breath.",
+        "Nosebleeds."
+    ],
+    "lowsugar": [
+        "Fast heartbeat.",
+        "Shaking.",
+        "Sweating.",
+        "Nervousness or anxiety.",
+        "Irritability or confusion.",
+        "Dizziness.",
+        "Hunger."
+    ],
+    "lowoxy": [
+        "Headache.",
+        "Difficulty breathing or shortness of breath (dyspnea).",
+        "Rapid heart rate (tachycardia).",
+        "Coughing.",
+        "Wheezing.",
+        "Confusion.",
+        "Bluish color in skin, fingernails and lips (cyanosis)."
+    ],
+    "highheartbeat": [
+        "Sensation of a racing, pounding heartbeat or flopping in the chest (palpitations)",
+        "Chest pain.",
+        "Fainting (syncope)",
+        "Lightheadedness.",
+        "Rapid pulse rate.",
+        "Shortness of breath."
+    ],
+    "risk": []
+}

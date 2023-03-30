@@ -20,23 +20,7 @@
   
   </head>
   <body>
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/recommendations">Recommendations</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/faqs">FAQ's</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/login">Login</a>
-      </li>
-    </ul>
+    
     <h3 class="heading">Evaluator Form</h3>
     <div class="form-inp">
       <form method="post" action="/submit">
@@ -44,8 +28,13 @@
 
           
           <div class="form-label">
-            <label for="town">Name</label>
-            <input type="text" class="form-control" name="town" id="town" placeholder="Town" >
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" name="name" id="Name" placeholder="Name" required="1">
+          </div>
+
+          <div class="form-label">
+            <label for="Town">Town</label>
+            <input type="text" class="form-control" name="town" id="Town" placeholder="Town" >
           </div>
 
           <div class="form-label">
@@ -60,7 +49,7 @@
 
           <div class="form-label">
             <label for="dob">DateOfBirth</label>
-            <input type="date" class="form-control" name="DateOfBirth" id="dob" placeholder="DateOfBirth" >
+            <input type="date" class="form-control" name="dob" id="dob" placeholder="DateOfBirth" >
           </div>
   
 
@@ -79,8 +68,8 @@
             required="1"
             placeholder="Enter your Gender"
           >
-            <option value="{{0}}">{{'female'}}</option>
-            <option value="{{1}}">{{'male'}}</option>
+            <option value="1">{{'female'}}</option>
+            <option value="0">{{'male'}}</option>
           </select>
         </div>
 

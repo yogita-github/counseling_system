@@ -1,6 +1,6 @@
 {
     "healthy": [
-        "A healthy person requires a balanced diet that provides all the necessary nutrients to support their bodily functions. The following are the essential nutrients that a healthy person should include in their diet:",
+        "A healthy person requires a balanced diet that provides all the necessary nutrients to support their bodily functions.",
         "Carbohydrates: Carbohydrates are the primary source of energy for the body. Good sources of carbohydrates include whole grains, fruits, vegetables, and legumes.",
         "Proteins: Proteins are the building blocks of the body and are essential for growth, repair, and maintenance of tissues. Good sources of protein include lean meats, fish, poultry, eggs, legumes, and nuts.",
         "Fats: Fats are necessary for various functions in the body, including hormone production, insulation of organs, and energy storage. Good sources of healthy fats include nuts, seeds, avocado, olive oil, and fatty fish.",
@@ -9,7 +9,7 @@
         "It's important to note that a healthy person should also consume plenty of water to maintain proper hydration and aid in bodily functions. Additionally, it's recommended to limit intake of processed foods, added sugars, and saturated and trans fats."
     ],
     "highbp": [
-        "High blood pressure, or hypertension, is a condition in which the force of blood against the walls of the arteries is too high. While there is no single nutrient that can cure high blood pressure, there are several nutrients that have been shown to help lower blood pressure over time. Here are some nutrients that may be helpful for people with high blood pressure:",
+        "High blood pressure, or hypertension, is a condition in which the force of blood against the walls of the arteries is too high. While there is no single nutrient that can cure high blood pressure, there are several nutrients that have been shown to help lower blood pressure over time.",
         "Potassium: Potassium is an important mineral that can help to lower blood pressure by counteracting the effects of sodium in the body. Good sources of potassium include bananas, sweet potatoes, spinach, and avocados.",
         "Calcium: Calcium is also important for regulating blood pressure, and studies have shown that people with low calcium intake may be more likely to develop hypertension. Good sources of calcium include dairy products, leafy greens, and fortified cereals.",
         "Magnesium: Magnesium is another mineral that has been shown to help lower blood pressure, and is important for overall cardiovascular health. Good sources of magnesium include almonds, spinach, avocado, and black beans.",
@@ -19,7 +19,6 @@
     ],
     "lowbp": [
         "Low blood pressure, also known as hypotension, is a condition in which the blood pressure is lower than normal. While low blood pressure may not always cause symptoms, it can cause dizziness, lightheadedness, and fainting in some people.",
-        "There are a few nutrients that may be helpful in managing low blood pressure:",
         "Salt: Sodium is an essential nutrient that helps regulate blood pressure. For individuals with low blood pressure, increasing salt intake may help raise blood pressure levels. However, it is important to not overdo it, as excessive salt intake can lead to other health problems.",
         "Water: Dehydration can contribute to low blood pressure, so it's important to stay hydrated by drinking plenty of water throughout the day.",
         "Iron: Anemia, or low levels of red blood cells, can cause low blood pressure. Iron is an essential nutrient for the production of red blood cells, so ensuring adequate iron intake through diet or supplementation may help prevent anemia and raise blood pressure levels.",
