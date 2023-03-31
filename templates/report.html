@@ -20,7 +20,6 @@
         </td>
       </tr>
       <tr>
-        <td>D.O.B: {{dob}}</td>
         <td>Gender: {{gender}}</td>
       </tr>
     </table>
@@ -51,7 +50,6 @@
       </tr>
       {% for s in syms %}
       <tr>
-
         <td>{{s}}</td>
       </tr>
       {% endfor %}
@@ -59,44 +57,28 @@
   </div>
 
   <b><p class="table-head">RECOMMENDATIONS</p></b>
-  <div class="recs">
-    <table class="recommendations-phy">
-        <th >PHYSICAL</th>
-        <tr>
-          {%for p in phy%}
-          <td>{{p}}</td>
-        </tr>
-          {%endfor%}
-          </table>
 
-          <table class="recommendations-meds">
-          <th>MEDICINES</th>
-        <tr>
-          {%for p in meds%}
-          <td>{{p}}</td>
-        </tr>
-          {%endfor%}
-        </table>
+        <h2 class="info-head">PHYSICAL</h2>
+          
+          <p>{% for d in phy %}
+            <li class="info">{{ d }}</li>
+            {% endfor %}</p>       
 
-        <table class="recommendations-medi">
-          <th>MEDITATION</th>
-        <tr>
-          {%for p in medi%}
-          <td>{{p}}</td>
-        </tr>
-          {%endfor%}
-        </table>
+          <h2 class="info-head">MEDICINES</h2>
+          <p>{% for d in meds %}
+            <li class="info">{{ d }}</li>
+            {% endfor %}</p>   
 
-        <table class="recommendations-nutri">
-          <th>NUTRIENTS</th>
-        <tr>
-          {%for p in nutri%}
-          <td>{{p}}</td>
-        </tr>
-          {%endfor%}
+          <h2 class="info-head">MEDITATION</h2>
+          <p>{% for d in medi %}
+            <li class="info">{{ d }}</li>
+            {% endfor %}</p>   
 
-    </table>
-  </div>
+          <h2 class="info-head">NUTRIENTS</h2>
+          <p>{% for d in nutri %}
+            <li class="info">{{ d }}</li>
+            {% endfor %}</p>   
+
 
     <!-- <h2 style="text-align: center;">SUGGESTIONS</h2>
     

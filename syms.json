@@ -58,5 +58,23 @@
         "Rapid pulse rate.",
         "Shortness of breath."
     ],
-    "risk": []
+    "risk": [
+        "The solution for health risks depends on the specific risk and its causes. In general, some steps that can be taken to reduce health risks include:",
+        "Maintain a healthy lifestyle: Eating a balanced diet, getting regular exercise, getting enough sleep, and avoiding harmful habits like smoking or excessive alcohol consumption can help reduce the risk of many health problems.",
+        "Get regular check-ups: Regular medical check-ups and screenings can help detect health problems early, when they are easier to treat.",
+        "Reduce stress: Chronic stress can have negative effects on health. Finding ways to manage stress, such as through relaxation techniques or counseling, can help reduce health risks.",
+        "Protect against infections: Washing hands regularly, getting vaccinated, and practicing safe sex can help reduce the risk of infections.",
+        "Manage chronic conditions: If you have a chronic condition, such as diabetes or high blood pressure, working with your healthcare provider to manage the condition can help reduce the risk of complications.",
+        "Follow safety guidelines: Following safety guidelines, such as wearing seat belts, using protective gear when participating in sports or activities, and avoiding risky behaviors like texting while driving, can help reduce the risk of injuries.",
+        "Ultimately, the best solution for health risks is to be proactive about your health and take steps to prevent problems before they occur. It's important to work with your healthcare provider to develop a personalized plan to manage your health risks based on your individual needs and circumstances."
+    ],
+    "hightemp": [
+        "If you have a high body temperature, also known as a fever, it can be a sign that your body is fighting off an infection or illness. The best solution for a high body temperature depends on the underlying cause, but here are some general recommendations:",
+        "Stay hydrated: Drink plenty of water and fluids to help cool down your body and prevent dehydration.",
+        "Rest: Rest is crucial when you have a fever. Try to get plenty of sleep and avoid strenuous activities that can raise your body temperature further.",
+        "Use fever-reducing medication: Over-the-counter medications such as acetaminophen (Tylenol) or ibuprofen (Advil) can help reduce fever and relieve other symptoms such as headache and body aches.",
+        "Take a cool bath or use a cool compress: You can also use a cool damp cloth or take a cool bath to help lower your body temperature.",
+        "Seek medical attention: If your fever is very high or lasts for more than a few days, or if you have other concerning symptoms, it's important to seek medical attention to identify and treat the underlying cause of your fever.",
+        "It's important to note that fever is a symptom, not a disease, and treating the underlying cause is the best way to alleviate the fever"
+    ]
 }

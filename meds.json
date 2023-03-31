@@ -60,5 +60,22 @@
         "Digoxin: This medication helps to slow down the heart rate by increasing the strength of the heart muscle contractions. It is often used to treat tachycardia caused by heart failure or atrial fibrillation.",
         "Antiarrhythmic drugs: These medications, such as amiodarone and flecainide, are used to treat abnormal heart rhythms that can cause tachycardia. They work by regulating the electrical activity of the heart.",
         "It is important to note that the treatment of tachycardia will depend on the underlying cause, and should always be prescribed by a healthcare professional. In some cases, tachycardia may require more invasive treatments such as cardioversion or ablation."
+    ],
+    "healthy": [
+        "Maintaining a healthy lifestyle involves a combination of factors, including regular exercise, a balanced diet, adequate sleep, and stress management. While medication can help manage certain health conditions, it is not a substitute for a healthy lifestyle.",
+        "That being said, some medications may aid in promoting a healthy lifestyle. Here are a few examples:",
+        "Statins: These medications are used to lower cholesterol levels and reduce the risk of heart disease. They are typically prescribed to individuals who have high cholesterol levels, and they work by blocking the production of cholesterol in the liver.",
+        "Antihypertensives: These medications are used to lower blood pressure in individuals with high blood pressure. High blood pressure is a risk factor for heart disease and stroke, so managing it is important for maintaining good health.",
+        "Diabetes medications: For individuals with diabetes, medications such as insulin or oral medications can help regulate blood sugar levels and prevent complications associated with high blood sugar levels.",
+        "Smoking cessation medications: Quitting smoking is one of the most important steps you can take to improve your health. Medications such as nicotine replacement therapy and bupropion can help ease withdrawal symptoms and increase the likelihood of quitting smoking.",
+        "It's important to note that all medications have potential side effects and should only be taken as prescribed by a healthcare professional. Additionally, medication should not be used as a substitute for a healthy lifestyle, but rather as a supplement to it."
+    ],
+    "highheartbeat": [
+        "A high heartbeat, also known as tachycardia, is a condition in which the heart beats faster than normal. Tachycardia can be caused by a variety of factors, including stress, anxiety, medications, and underlying medical conditions such as thyroid problems or heart disease. The treatment for tachycardia will depend on the underlying cause, but here are some medications that may be used to help control a high heartbeat:",
+        "Beta-blockers: These medications, such as metoprolol and propranolol, work by blocking the effects of adrenaline, which can increase the heart rate. Beta-blockers are often used to treat tachycardia caused by anxiety, hyperthyroidism, or heart disease.",
+        "Calcium channel blockers: These medications, such as verapamil and diltiazem, work by relaxing the blood vessels and reducing the workload on the heart. They are often used to treat tachycardia caused by heart disease or hypertension.",
+        "Digoxin: This medication helps to slow down the heart rate by increasing the strength of the heart muscle contractions. It is often used to treat tachycardia caused by heart failure or atrial fibrillation.",
+        "Antiarrhythmic drugs: These medications, such as amiodarone and flecainide, are used to treat abnormal heart rhythms that can cause tachycardia. They work by regulating the electrical activity of the heart.",
+        "It is important to note that the treatment of tachycardia will depend on the underlying cause, and should always be prescribed by a healthcare professional. In some cases, tachycardia may require more invasive treatments such as cardioversion or ablation."
     ]
 }
