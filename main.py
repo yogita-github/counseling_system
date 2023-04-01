@@ -1,14 +1,9 @@
-from flask import Flask, render_template, url_for ,request,redirect
+from flask import Flask, render_template, request
 import numpy as np
 import pickle
-from sklearn.preprocessing import StandardScaler
-from imblearn.over_sampling import SMOTE
-import data
+
 import file
 import datalist
-from datetime import date
-
-import pandas as pd
 
 app = Flask(__name__)
 
@@ -36,40 +31,37 @@ def forms():
     res = predict(gender,age, sbp, hbp, h_rate, glc, spo2, temp)
     if (res[0] == 1):
         result = "healthy"
-        # this every line is changed
-        data, phy, medi, nutri, meds, syms = rec("healthy")
+        data, phy, medi, nutri, syms = rec("healthy")
     elif(res[0] == 2):
         result = "High BP"
-        data, phy, medi, nutri, meds, syms = rec("highbp")
+        data, phy, medi, nutri, syms = rec("highbp")
     elif(res[0] == 3):
         result = "LOW BP"
-        data, phy, medi, nutri, meds, syms = rec("lowbp")
+        data, phy, medi, nutri, syms = rec("lowbp")
     elif(res[0] == 4):
         result = "High Sugar"
-        data, phy, medi, nutri, meds, syms = rec("highsugar")
+        data, phy, medi, nutri, syms = rec("highsugar")
     elif(res[0] == 5):
         result = "Low Sugar"
-        data, phy, medi, nutri, meds, syms = rec("lowsugar")
+        data, phy, medi, nutri, syms = rec("lowsugar")
     elif(res[0] == 6):
         result = "Low Oxygen"
-        data, phy, medi, nutri, meds, syms = rec("lowoxy")
+        data, phy, medi, nutri, syms = rec("lowoxy")
     elif(res[0] == 7):
         result = "High Temperature"
-        data, phy, medi, nutri, meds, syms = rec("hightemp")
+        data, phy, medi, nutri, syms = rec("hightemp")
     elif(res[0] == 8):
         result = "Heartbeat is High"
-        data, phy, medi, nutri, meds, syms = rec("highheartbeat")
+        data, phy, medi, nutri, syms = rec("highheartbeat")
     elif(res[0] == 9):
         result = "Risk"
-        data, phy, medi, nutri, meds, syms = rec("risk")
-    # result = data.con[res[0]-1]
-    # print(phy)
-    # a variable syms is added
+        data, phy, medi, nutri, syms = rec("risk")
+
     if(gender == '1'):
         g = 'female'
     elif(gender == '0'):
-        g='male'
-    return render_template('report.html', res = result, zipped_data = zip(vitals, datalist.vals), data = data, phy = phy, meds = meds, medi = medi, nutri=nutri, syms=syms, name = name, pin = pin, country = country, gender = g, town = town)
+        g = 'male'
+    return render_template('report.html', res = result, zipped_data = zip(vitals, datalist.vals), data = data, phy = phy, medi = medi, nutri=nutri, syms=syms, name = name, pin = pin, country = country, gender = g, town = town)
 
 @app.route('/forms', methods=['POST', 'GET'])
 def form():
@@ -80,9 +72,8 @@ def rec(stri):
     physical = file.physical[stri]
     meditation = file.meditation[stri]
     nutris = file.nutris[stri]
-    meds = file.meds[stri]
-    syms = file.syms[stri] #this line is added
-    return parsed, physical, meditation, nutris, meds, syms 
+    syms = file.syms[stri] 
+    return parsed, physical, meditation, nutris, syms 
 
 @app.route('/tips', methods=['POST', 'GET'])
 def tips():
