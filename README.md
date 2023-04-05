@@ -11,3 +11,6 @@
 ![Screenshot (2527)](https://user-images.githubusercontent.com/103029645/229346231-ba8aae42-d568-4270-a4eb-3f242cadde01.png)
 ![Screenshot (2528)](https://user-images.githubusercontent.com/103029645/229346235-5d90b324-04ef-402f-bd28-1b27c319d1c9.png)
 [TC1Report.pdf](https://github.com/yogita-github/counselling_system/files/11131777/TC1Report.pdf)
+
+
+A project is trained using dataset of body vitals.It is trained using rfc algorithm which takes the average to improve the predictive accuracy of that dataset.Tried with various svc algorithm ,Naive Bayes Classifier and K-nearest neighbour algorithm but in case of rfc the accuracy was around 80% .
